@@ -1,0 +1,30 @@
+name: Renovate
+
+on:
+  schedule:
+    # The "*" (#42, asterisk) character has special semantics in YAML, so this
+    # string has to be quoted.
+    - cron: "0/15 * * * *"
+  push:
+    branches:
+      - main
+
+jobs:
+  renovate:
+    runs-on: [docker, self-hosted]
+      
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run self-hosted Renovate
+        uses: https://github.com/renovatebot/github-action@v43.0.1
+        with:
+          env-regex: "^(?:RENOVATE_\\w+|LOG_LEVEL)$"
+        env:
+          RENOVATE_ENDPOINT: ${{ github.api_url }}
+          RENOVATE_PLATFORM: "gitea"
+          RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
+          RENOVATE_REPOSITORIES: ${{ github.repository }}
+          RENOVATE_GITHUB_COM_TOKEN: ${{ secrets.RENOVATE_GITHUB_COM_TOKEN }}
+          RENOVATE_GIT_AUTHOR: "Renovate Bot <renovate-bot@bannert.dev>"
