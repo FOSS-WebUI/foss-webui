@@ -1,7 +1,7 @@
 # FOSS WebUI 👋
 
 ![GitHub stars](https://img.shields.io/github/stars/bannert1337/foss-webui?style=social)
-![GitHub forks](https://img.shields.io/github/forksbannert1337/foss-webui?style=social)
+![GitHub forks](https://img.shields.io/github/forks/bannert1337/foss-webui?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/bannert1337/foss-webui?style=social)
 ![GitHub repo size](https://img.shields.io/github/repo-size/bannert1337/foss-webui)
 ![GitHub language count](https://img.shields.io/github/languages/count/bannert1337/foss-webui)
