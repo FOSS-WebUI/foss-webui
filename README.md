@@ -46,7 +46,7 @@
 
 - 🌐🌍 **Multilingual Support**: Experience FOSS WebUI in your preferred language with our internationalization (i18n) support. Join us in expanding our supported languages! We're actively seeking contributors!
 
-- 🧩 **Pipelines, FOSS WebUI Plugin Support**: Seamlessly integrate custom logic and Python libraries into FOSS WebUI using [Pipelines Plugin Framework](https://github.com/open-webui/pipelines). Launch your Pipelines instance, set the OpenAI URL to the Pipelines URL, and explore endless possibilities. [Examples](https://github.com/open-webui/pipelines/tree/main/examples) include **Function Calling**, User **Rate Limiting** to control access, **Usage Monitoring** with tools like Langfuse, **Live Translation with LibreTranslate** for multilingual support, **Toxic Message Filtering** and much more.
+- 🧩 **Pipelines, FOSS WebUI Plugin Support**: Seamlessly integrate custom logic and Python libraries into FOSS WebUI using [Pipelines Plugin Framework](https://github.com/foss-webui/pipelines). Launch your Pipelines instance, set the OpenAI URL to the Pipelines URL, and explore endless possibilities. [Examples](https://github.com/foss-webui/pipelines/tree/main/examples) include **Function Calling**, User **Rate Limiting** to control access, **Usage Monitoring** with tools like Langfuse, **Live Translation with LibreTranslate** for multilingual support, **Toxic Message Filtering** and much more.
 
 - 🌟 **Continuous Updates**: We are committed to improving FOSS WebUI with regular updates, fixes, and new features.
 
