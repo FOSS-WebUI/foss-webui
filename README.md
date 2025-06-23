@@ -60,14 +60,14 @@ FOSS WebUI can be installed using pip, the Python package installer. Before proc
    Open your terminal and run the following command to install FOSS WebUI:
 
    ```bash
-   pip install open-webui
+   pip install foss-webui
    ```
 
 2. **Running FOSS WebUI**:
    After installation, you can start FOSS WebUI by executing:
 
    ```bash
-   open-webui serve
+   foss-webui serve
    ```
 
 This will start the FOSS WebUI server, which you can access at [http://localhost:8080](http://localhost:8080)
