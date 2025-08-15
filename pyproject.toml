@@ -62,7 +62,7 @@ dependencies = [
     "transformers",
     "sentence-transformers==3.3.1",
     "accelerate",
-    "colbert-ai==0.2.21",
+    "colbert-ai==0.2.22",
     "einops==0.8.1",
 
     "ftfy==6.2.3",

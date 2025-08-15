@@ -699,13 +699,13 @@ wheels = [
 
 [[package]]
 name = "colbert-ai"
-version = "0.2.21"
+version = "0.2.22"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "bitarray" },
     { name = "datasets" },
     { name = "flask" },
-    { name = "git-python" },
+    { name = "gitpython" },
     { name = "ninja" },
     { name = "python-dotenv" },
     { name = "scipy" },
@@ -713,9 +713,9 @@ dependencies = [
     { name = "transformers" },
     { name = "ujson" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/bc/dc/7edb06e3bb01326610ecfdfc8e396c6867ba7de6e58cda2356a604419899/colbert_ai-0.2.21.tar.gz", hash = "sha256:a8d6fdb4e2272f2b08ed37f8e5096072160d8415d1e40585751898b77e625bab", size = 87978, upload-time = "2024-08-20T20:14:25.262Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/56/c7/34db7f4f7ae4f51f34e195387b7e75ddad2bc6451978463c7fa5f24c098b/colbert_ai-0.2.22.tar.gz", hash = "sha256:00afcfef5d715f0d3a706be90d2b5b74a2bb7c402073807ceb5515c0026a8886", size = 88234, upload-time = "2025-08-11T01:22:38.054Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8d/9c/5d847be0f05e5266880fb1c183e642a6c34cd6a101c1d6219dfa74887543/colbert_ai-0.2.21-py3-none-any.whl", hash = "sha256:8c17e7be44e7f3989f2067f1176af4f65f4612d62850586657e8afb8314cb2a6", size = 116142, upload-time = "2024-08-20T20:14:23.32Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/56/0fafa5cf3cb6bcc8dd65eec1465c6e86a454c77addd62a22ae672c140827/colbert_ai-0.2.22-py3-none-any.whl", hash = "sha256:b829f0a26ba6cdb31c890fa136dd4aade20c5e03372e43cd3b5121466545e413", size = 116295, upload-time = "2025-08-11T01:22:36.679Z" },
 ]
 
 [[package]]
@@ -1278,18 +1278,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/17/c2/a0b0e1e54fdd9453603d90939faf652e2488b617c8752edc4ebcd89f1686/gcp_storage_emulator-2024.8.3.tar.gz", hash = "sha256:e5d45e5c23a0344c1c4c44b8f8c36f7e8975ca1fcc5134cab608b96ddccd9225", size = 24928, upload-time = "2024-08-03T19:13:58.073Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/53/bf/b6c717bd7a5b59244388057d36789e72c28bfaa5e51f3a494563a4e3028e/gcp_storage_emulator-2024.8.3-py3-none-any.whl", hash = "sha256:1dc4ea56a0caf50fc6092898b9461d08b494824bfbbcca168e2af5da89c053ce", size = 19385, upload-time = "2024-08-03T19:13:56.296Z" },
-]
-
-[[package]]
-name = "git-python"
-version = "1.0.3"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "gitpython" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/5b/3c/f0726fd577517ff8f09e6fe49f153ec9c595f1964c02c209c757d473780a/git-python-1.0.3.zip", hash = "sha256:a7f51d07c7a0b0a15cb4dfa78601196dd20624211153d07c092b811edb6e86fb", size = 4286, upload-time = "2019-10-13T10:30:24.257Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/8a/de/0cc6353a45cdb1e137cffac5383097b300cc578e2e1133eeb847e23a1394/git_python-1.0.3-py2.py3-none-any.whl", hash = "sha256:8820ce93786cd11a76d44c7153708588e8056213e4c512406ea3732871aa9ad6", size = 1888, upload-time = "2019-10-13T10:30:22.489Z" },
 ]
 
 [[package]]
@@ -2765,7 +2753,7 @@ requires-dist = [
     { name = "black", specifier = "==25.1.0" },
     { name = "boto3", specifier = "==1.35.53" },
     { name = "chromadb", specifier = "==0.6.3" },
-    { name = "colbert-ai", specifier = "==0.2.21" },
+    { name = "colbert-ai", specifier = "==0.2.22" },
     { name = "docker", specifier = "~=7.1.0" },
     { name = "docx2txt", specifier = "==0.8" },
     { name = "duckduckgo-search", specifier = "~=8.0.0" },
