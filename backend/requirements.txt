@@ -48,7 +48,7 @@ chromadb==0.6.3
 pymilvus==2.5.0
 qdrant-client~=1.12.0
 opensearch-py==2.8.0
-playwright==1.49.1 # Caution: version must match docker-compose.playwright.yaml
+playwright==1.55.0 # Caution: version must match docker-compose.playwright.yaml
 elasticsearch==8.17.1
 
 
