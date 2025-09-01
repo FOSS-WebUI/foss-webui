@@ -69,7 +69,7 @@ unstructured==0.16.17
 nltk==3.9.1
 Markdown==3.7
 pypandoc==1.15
-pandas==2.2.3
+pandas==2.3.2
 openpyxl==3.1.5
 pyxlsb==1.0.10
 xlrd==2.0.1
