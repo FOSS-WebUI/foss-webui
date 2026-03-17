@@ -58,7 +58,7 @@ jobs:
 
       - name: Extract metadata for Docker images (default latest tag)
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.FULL_IMAGE_NAME }}
           tags: |
@@ -72,7 +72,7 @@ jobs:
 
       - name: Extract metadata for Docker cache
         id: cache-meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.FULL_IMAGE_NAME }}
           tags: |
@@ -155,7 +155,7 @@ jobs:
 
       - name: Extract metadata for Docker images (cuda tag)
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.FULL_IMAGE_NAME }}
           tags: |
@@ -171,7 +171,7 @@ jobs:
 
       - name: Extract metadata for Docker cache
         id: cache-meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.FULL_IMAGE_NAME }}
           tags: |
@@ -255,7 +255,7 @@ jobs:
 
       - name: Extract metadata for Docker images (ollama tag)
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.FULL_IMAGE_NAME }}
           tags: |
@@ -271,7 +271,7 @@ jobs:
 
       - name: Extract metadata for Docker cache
         id: cache-meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.FULL_IMAGE_NAME }}
           tags: |
@@ -342,7 +342,7 @@ jobs:
 
       - name: Extract metadata for Docker images (default latest tag)
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.FULL_IMAGE_NAME }}
           tags: |
@@ -396,7 +396,7 @@ jobs:
 
       - name: Extract metadata for Docker images (default latest tag)
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.FULL_IMAGE_NAME }}
           tags: |
@@ -452,7 +452,7 @@ jobs:
 
       - name: Extract metadata for Docker images (default ollama tag)
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.FULL_IMAGE_NAME }}
           tags: |
