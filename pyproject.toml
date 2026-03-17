@@ -74,7 +74,7 @@ dependencies = [
     "unstructured==0.16.17",
     "nltk==3.9.1",
     "Markdown==3.7",
-    "pypandoc==1.15",
+    "pypandoc==1.17",
     "pandas==2.2.3",
     "openpyxl==3.1.5",
     "pyxlsb==1.0.10",
