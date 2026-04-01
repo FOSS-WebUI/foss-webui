@@ -21,7 +21,7 @@ dependencies = [
     "aiocache",
     "aiofiles",
 
-    "sqlalchemy==2.0.38",
+    "sqlalchemy==2.0.48",
     "alembic==1.14.0",
     "peewee==3.17.9",
     "peewee-migrate==1.12.2",
